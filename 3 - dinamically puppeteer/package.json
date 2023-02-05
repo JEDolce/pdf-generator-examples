@@ -1,0 +1,29 @@
+{
+  "name": "ticket-generator",
+  "version": "1.0.0",
+  "description": "Dynamic PDF Ticket generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "Ticket",
+    "PDF",
+    "Puppeteer",
+    "Handlebar"
+  ],
+  "author": "JEDolce",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fs-extra": "^11.1.0",
+    "handlebars": "^4.7.7",
+    "puppeteer": "^19.6.2"
+  }
+}

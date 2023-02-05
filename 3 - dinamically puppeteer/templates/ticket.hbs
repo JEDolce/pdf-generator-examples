@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Result Template</title>
+    <link rel="stylesheet" href="../dist/style.css">
+</head>
+
+<body>
+    <div class="invoice-box">
+        <table cellpadding="0" cellspacing="0">
+            <tr class="top">
+                <td colspan="2">
+                    <table>
+                        <tr>
+                            <td class="title"><img
+                                    src="https://i2.wp.com/cleverlogos.co/wp-content/uploads/2018/05/reciepthound_1.jpg?fit=800%2C600&ssl=1"
+                                    style="width:100%; max-width:156px;"></td>
+                            <td>
+                                Datum: <span id="date"></span>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr class="information">
+                <td colspan="2">
+                    <table>
+                        <tr>
+                            <td>
+                                Customer name: {{ticket.name}}
+                            </td>
+                            <td>
+                                Receipt number: {{ticket.receiptId}}
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr class="heading">
+                <td>Bought items:</td>
+                <td>Price</td>
+            </tr>
+            <tr class="item">
+                <td>First item:</td>
+                <td>${{ticket.price1}}</td>
+            </tr>
+            <tr class="item">
+                <td>Second item:</td>
+                <td>${{ticket.price2}}</td>
+            </tr>
+        </table>
+        <br />
+        <h1 class="justify-center">Total price: $ {{ticket.total}}</h1>
+    </div>
+</body>
+
+</html>
+<script>
+    let today = new Date();
+    let day = today.getDate();
+    let month = today.getMonth() + 1;
+    let year = today.getFullYear();
+    document.getElementById('date').innerHTML = `${day}. ${month}. ${year}`;
+</script>

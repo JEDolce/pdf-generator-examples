@@ -1,0 +1,47 @@
+{
+    "title": "PDF Document in Puppeteer & Handlebars",
+    "users": [
+        {
+            "name": "Kane Williamson",
+            "age": 32,
+            "country": "New Zealand"
+        },
+        {
+            "name": "Martin Guptill",
+            "age": 35,
+            "country": "New Zealand"
+        },
+        {
+            "name": "Finn Allen",
+            "age": 22,
+            "country": "New Zealand"
+        },
+        {
+            "name": "Trent Boult",
+            "age": 32,
+            "country": "New Zealand"
+        },
+        {
+            "name": "Tim Southee",
+            "age": 33,
+            "country": "New Zealand"
+        },
+        {
+            "name": "Ross Taylor",
+            "age": 38,
+            "country": "New Zealand"
+        },
+        {
+            "name": "Blair Tickner",
+            "age": 29,
+            "country": "New Zealand"
+        }
+    ],
+    "ticket": {
+        "name": "Juan",
+        "price1": 100,
+        "price2": 200,
+        "total": 300,
+        "receiptId": "30290001"
+    }
+}
