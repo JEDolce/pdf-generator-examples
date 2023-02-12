@@ -1,0 +1,9 @@
+This library offers some basic components and you can customize them to come up with amazing designs. Let’s see some components which we will use later.
+
+    <Document> : This component represents the PDF document itself. And this is the root of a PDF file.
+    <Page> : This tag represents a single page inside the PDF documents.
+    <View> : This is a general purpose container used to build a UI for PDFs.
+    <Image> : Used to display network or local(Node only) JPG or PNG images into a PDF.
+    <Text> : Used to display text.
+    <PDFDownloadLink> : This is an anchor tag to enable generating and downloading PDF documents.
+    <PDFViewer>: This tag is used to render client-side generated documents.
