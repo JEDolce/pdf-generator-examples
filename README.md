@@ -6,7 +6,7 @@ Test application to generate a pdf using differente technologies:
  - Option 2: Generate pdf from sample.html (Puppeteer)
  - Option 3: Generate pdf dynamically with user data from an invoice template (Puppeteer)
  - Option 4: Generate pdf dynamically with user data from an invoice template (Html-pdf)
- - Option 5: Generate pdf from sample.html (React-pdf)
+ - Option 5: Generate pdf dynamically with user data on the frontend (React-pdf)
 
 On the frontend, in the first two options, there is a single button that triggers the process of 
 creating and saving the pdf document. The action is communicated through axios to the backend, 
